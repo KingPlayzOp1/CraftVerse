@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Your Servers</h2>
+    <div id="servers"></div>
+    <input type="text" id="serverName" placeholder="Server Name" />
+    <input type="text" id="serverPath" placeholder="Path (e.g., /home/mc/server)" />
+    <button onclick="addServer()">Add Server</button>
+    <button onclick="startServer()">Start Server</button>
+    <button onclick="stopServer()">Stop Server</button>
+    <p><a href="index.html" onclick="logout()">Logout</a></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
